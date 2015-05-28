@@ -3,6 +3,7 @@ import setvar
 import sys
 import show
 import getvalue
+import prettyprint
 
 lines = 0
 
@@ -27,6 +28,7 @@ keywords = {
         "set":setvar.setvar,
         "show":show.show,        
         "getvalue":getvalue.getvalue,
+        "prettyprint":prettyprint.prettyprint,
 
 }
 
